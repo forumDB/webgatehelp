@@ -1,0 +1,77 @@
+/*
+Website template for webgatehelp.com
+Created by forumDB https://forumdb.net
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+:root {
+    --main-color: #164CC6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.navbar-brand svg {
+    fill: var(--main-color);
+    height: 60px;
+    width: 60px;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: var(--main-color) !important;
+}
+
+.top-text {
+    font-size: 3em;
+}
+
+.tutorial-wrapper {
+    color: #000;
+    padding: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 5px dotted var(--main-color);
+}
+
+.tutorial-wrapper:hover {
+    color: #3f70e0;
+    border-color: #3f70e0;
+}
+
+.tutorial-wrapper svg {
+    height: 50px;
+    width: 50px;
+    color: var(--main-color);
+}
+
+.footer {
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+.footer img {
+    height: 60px;
+    width: auto;
+}
+
+.footer a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px dotted #FFF;
+    font-weight: 600;
+}

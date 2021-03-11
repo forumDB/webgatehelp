@@ -5,12 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <title>WebGateHelp</title>
 </head>
 <body>
-<h1>A quick start guide to creating your first website</h1>
+<nav class="navbar navbar-expand-lg navbar-light border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.96 115.96"><defs><style>.cls-2{fill:none;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M105.06,91.82A57.89,57.89,0,0,1,58,116h-1.1l-.12-24.33Z"/><path class="cls-1" d="M26,72.64V81H15.18a37.09,37.09,0,0,0,5.88-3.71A37.29,37.29,0,0,0,26,72.64Z"/><path class="cls-1" d="M10.88,91H30v17.34A58.25,58.25,0,0,1,10.75,90.85Z"/><path class="cls-1" d="M39,91.19l8,.18v.46q-.11,11.57-.21,23.11A55.1,55.1,0,0,1,39,112.83Z"/><path class="cls-1" d="M116,58a57.7,57.7,0,0,1-5.42,24.5C103.78,83.91,88,85.6,74,74.62,55.91,60.36,57.78,38,57.93,36H47v2.4c.29,14.2.16,28.4,0,42.6H39V36H28.45c1.63,16.85-4.54,31.83-16.08,38.21a27,27,0,0,1-9.09,3.05A58,58,0,1,1,116,58Z"/><path class="cls-2" d="M67,98H56.82c0-1.91,0-3.82,0-5.73A57.22,57.22,0,0,0,67,93.35C67,94.9,67,96.45,67,98Z"/><path class="cls-1" d="M60,81H70.82A36.34,36.34,0,0,1,65,77.28a35.58,35.58,0,0,1-5-4.64Z"/></g></g></svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Web hosts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Setting up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Learning email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HTML/CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mt-5">
+    <div class="row justify-content-md-center">
+        <div class="col-12 col-md-8">
+            <h1 class="text-center top-text mb-4 main-color">A quick start guide to creating your first website</h1>
+            <p class="fs-4 fw-light">
+                Are you wondering how to create your first website? Then follow the steps listed on this website to learn how to set up your own website. I will be covering everything from finding your first host to understanding cPanel. You will get your site up and running in no time!
+            </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12 col-md-6 p-4">
+            <h2>Things to consider before starting</h2>
+                <h5>Your niche</h5>
+                    <p>What kind of website do you want to create? Do you want to make a portfolio of your artwork or perhaps a blog on a topic that interests you?</p>
+                    <p>Deciding a niche is the first thing you want to think of when you are creating a website.</p>
+                    <p>From there, you will be able to build up your content.</p>
+                <h5>Choosing your web host</h5>
+                    <p>You need to think/decide what host you are going to go with. Do you want to go with a free or a paid host?</p>
+                    <p>You also need to decide what services you are going with. How much bandwidth and disk space will you need. For more information about web hosts click here.</p>
+                <h5>Subdomain or domain?</h5>
+                    <p>Do you want to spend around ten dollars a year for a domain name? Or perhaps go with a subdomain, which if free.</p>
+                    <p>Example of a domain name: squarespace.com</p>
+                    <p>Or a subdomain: mywebsite.squarespace.com</p>
+                <h5>How much money?</h5>
+                    <p>How much money are you willing to pay for your website?</p>
+                    <p>Building a website ranges from being completely free to paying for different services!</p>
+        </div>
+        <div class="col-12 col-md-6 p-4">
+            <h2>Our tutorials</h2>
+            <div class="tutorial-wrapper d-flex my-3">
+                <div class="d-flex align-items-center me-4">
+                    <i data-feather="server"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fs-5 fw-normal mb-0">Web hosts</p>
+                    <p class="fw-light mb-0">Learn what web hosts are, and which one you should use.</p>
+                </div>
+            </div>
+            <div class="tutorial-wrapper d-flex my-3">
+                <div class="d-flex align-items-center me-4">
+                    <i data-feather="link"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fs-5 fw-normal mb-0">Domain names</p>
+                    <p class="fw-light mb-0">Learn what the deal about those .com and .net links are, and how you can get one.</p>
+                </div>
+            </div>
+            <a href="#" class="tutorial-wrapper d-flex my-3">
+                <div class="d-flex align-items-center me-4">
+                    <i data-feather="settings"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fs-5 fw-normal mb-0">Setting up</p>
+                    <p class="fw-light mb-0">So, you have a web host and a domain name. Now what?</p>
+                </div>
+            </a>
+            <a href="#" class="tutorial-wrapper d-flex my-3">
+                <div class="d-flex align-items-center me-4">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fs-5 fw-normal mb-0">Learning email</p>
+                    <p class="fw-light mb-0">How do you get your very own business email account with your domain name?</p>
+                </div>
+            </a>
+            <a href="#" class="tutorial-wrapper d-flex my-3">
+                <div class="d-flex align-items-center me-4">
+                    <i data-feather="code"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fs-5 fw-normal mb-0">HTML and CSS</p>
+                    <p class="fw-light mb-0">In order to create and edit webpages, you need some knowledge of the coding languages HTML and CSS. We cover the basics.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container py-4">
+        <div class="row">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <img src="images/logo-full.svg" class="mb-5 mb-md-0">
+                <div class="text-end d-flex align-items-center ">
+                    <p class="m-0">Design by <a href="https://forumdb.net">forumDB</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<script>
+    feather.replace()
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
