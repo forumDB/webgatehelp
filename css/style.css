@@ -75,3 +75,31 @@ h1,h2,h3,h4,h5 {
     border-bottom: 1px dotted #FFF;
     font-weight: 600;
 }
+
+.article-index a {
+    text-decoration: none;
+    color: #000;
+    text-size: 0.8em;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.article-index a:hover {
+    color: var(--main-color);
+}
+
+.article-paragraph {
+    padding: 30px 40px;
+}
+
+.article-paragraph p {
+    font-size: 1.1em;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.article-alternate {
+    background-color: var(--main-color);
+    border-radius: 30px;
+    color: #FFF;
+}
